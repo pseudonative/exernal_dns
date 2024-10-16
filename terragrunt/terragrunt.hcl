@@ -3,6 +3,7 @@ terraform {
 }
 
 inputs = {
+  name = "external-dns-vpc
   aws_region = "us-east-1"  # Example region
   assume_role_arn = "arn:aws:iam::520291287938:role/ProdFullAccess"
   session_name    = "Terraform-ProdUpdate"
